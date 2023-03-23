@@ -65,7 +65,7 @@ h1 {
 .dot-item {
   width: 13px;
   height: 13px;
-  background-color: black;
+  background-color: grey;
   border-radius: 50%;
   list-style: none;
 

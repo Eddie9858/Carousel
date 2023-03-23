@@ -68,9 +68,7 @@ function dotColor(){
             dots[dotIndex].style.backgroundColor = "black";
             if(dotIndex != i){
                 dots[i].style.backgroundColor = "grey";
-            } else if(dotIndex === 4){
-                dots[dotIndex].style.backgroundColor = "black";
-            } else {
+            }else {
                 dots[dots.length - 1].style.backgroundColor = "grey";
             }
         }
